@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>NR Priyam | Personal Website</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f6f8;
+        }
+
+        /* Header */
+        header {
+            background: linear-gradient(to right, #0d47a1, #e65100);
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 40px;
+            letter-spacing: 2px;
+        }
+
+        header p {
+            font-size: 18px;
+        }
+
+        /* Navigation */
+        nav {
+            background-color: #222;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 16px;
+        }
+
+        nav a:hover {
+            color: #ff9800;
+        }
+
+        /* Section */
+        section {
+            padding: 40px;
+            max-width: 900px;
+            margin: auto;
+            background: white;
+            margin-top: 20px;
+            border-radius: 10px;
+        }
+
+        section h2 {
+            color: #0d47a1;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>NR PRIYAM</h1>
+    <p>Personal Website | Learner | Creator</p>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+    <h2>About Me</h2>
+    <p>
+        Hello! My name is <strong>NR Priyam</strong>.  
+        This is my personal website created using HTML and CSS.
+        I am interested in technology, learning new skills, and building creative projects.
+    </p>
+</section>
+
+<section id="skills">
+    <h2>My Skills</h2>
+    <ul>
+        <li>HTML & CSS</li>
+        <li>Basic Python</li>
+        <li>Web Design</li>
+        <li>Problem Solving</li>
+    </ul>
+</section>
+
+<section id="contact">
+    <h2>Contact Me</h2>
+    <p>Email: nrpriyam@email.com</p>
+    <p>Mobile: +91-9XXXXXXXXX</p>
+</section>
+
+<footer>
+    © 2026 NR Priyam | Personal Website
+</footer>
+
+</body>
+</html>
